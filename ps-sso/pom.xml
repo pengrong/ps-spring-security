@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ps</artifactId>
+        <groupId>com.inspur.gcloud</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ps-sso</artifactId>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.inspur.gcloud</groupId>
+            <artifactId>ps-core</artifactId>
+            <version>${ps.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.inspur.gcloud</groupId>
+            <artifactId>ps-uc</artifactId>
+            <version>${ps.version}</version>
+        </dependency>
+    </dependencies>
+</project>
